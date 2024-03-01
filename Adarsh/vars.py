@@ -11,8 +11,7 @@ class Var(object):
     MULTI_CLIENT = False
     API_ID = int(getenv('API_ID', '25145421'))
     API_HASH = str(getenv('API_HASH', 'faa6f8032ee368c78522a9fded1c18c6'))
-    BOT_TOKEN = str(getenv('BOT_TOKEN', '
-6304690734:AAHTAErXiprTmUj7oxDnM33wn00QfT3yMGQ'))
+    BOT_TOKEN = str(getenv('BOT_TOKEN', '6304690734:AAHTAErXiprTmUj7oxDnM33wn00QfT3yMGQ'))
     name = str(getenv('name', 'Fast_Downloader_bot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
