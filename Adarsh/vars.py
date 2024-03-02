@@ -38,6 +38,6 @@ class Var(object):
     DATABASE_URL = str(getenv('DATABASE_URL', 'mongodb+srv://speedfiletolink:manish123@cluster0.ym4uduc.mongodb.net/?retryWrites=true&w=majority'))
     UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', 'thespeedmoviess'))
     BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "-1001362659779")).split()))      
-    SHORTLINK_URL = getenv('SHORTLINK_URL', 'onepagelink.in')
-    SHORTLINK_API = getenv('SHORTLINK_API', 'c47e1c4469c0a66e74af7153cb8f4d3b304d010')
+    SHORTLINK_URL = getenv('SHORTLINK_URL', 'OnePagePro.in')
+    SHORTLINK_API = getenv('SHORTLINK_API', '83ec141e0a87bae2054cf9df342d9f3785c77505')
     TUTORIAL_URL = getenv('TUTORIAL_URL', 'https://t.me/thespeedmovie')
